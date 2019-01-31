@@ -11,8 +11,8 @@ function create_link($u,$t){
     return "<a href=\"$u\">$t</a>";
 }
 function create_table($t){
-        echo '<table class="table">';
-        echo '<thead class="thead-dark">';
+        echo '<table class="table table-striped table-dark">';
+        echo '<thead class="#">';
         echo '<td>URL</td><td>Name</td>';
         echo '<thead>';
         echo '<tbody>';
@@ -34,6 +34,7 @@ function create_table($t){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
     <?php
